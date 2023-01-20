@@ -35,7 +35,7 @@ function countdown(eventTime) {
 }
 
 function calculationCountdown () {
-    const dateEvent = new Date('2023-01-20 00:00:00'); 
+    const dateEvent = new Date('2023-01-23 08:00:00'); 
     const dateCurrent = new Date();
     return Math.floor((dateEvent - dateCurrent) / 1000); 
 }
