@@ -35,12 +35,12 @@ function countdown(eventTime) {
 }
 
 function calculationCountdown () {
-    const dateEvent = new Date('2023-01-23 08:00:00'); 
-    const dateCurrent = new Date();
-    return Math.floor((dateEvent - dateCurrent) / 1000); 
+    const dateEvent = new Date('2023-01-23 08:00:00'); // Data do evento
+    const dateCurrent = new Date(); // Data atual
+    return Math.floor((dateEvent - dateCurrent) / 1000); // Converter para segundos 
 }
 
-countdown(calculationCountdown())
+// countdown(calculationCountdown())
 
 
 
